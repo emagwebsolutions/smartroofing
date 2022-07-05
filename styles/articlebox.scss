@@ -1,0 +1,29 @@
+.articlebox{
+  text-align: center;
+  padding: 1em;
+  background-color: white;
+  h4{
+    font-size: 1.6rem;
+  }
+  div{
+    font-size: 1.2rem;
+    color: muted();
+  }
+  border-radius: 2rem;
+&:hover{
+  box-shadow: 1rem 1rem 1rem muted(.1);
+}
+  .fa{
+    width: 7rem;
+    height: 7rem;
+    border: solid .1rem danger();
+    border-radius: 50%;
+    color: danger();
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: auto;
+    margin-bottom: 1em;
+    font-size: 4rem;
+  }
+}
