@@ -55,43 +55,31 @@ const Contact = () => {
 
             <div className="flex">
             <Contactdetails 
-              icons = "fa fa-phone"
+              icons = "fa fa-map-marker"
               heading = "Accra"
-              details = "+233 504042792"
+              details = "Musuku – Kwabenya off Ashongman Estate Road"
             />
             <Contactdetails 
-              icons = "fa fa-phone"
+              icons = "fa fa-map-marker"
               heading = "Kumasi"
-              details = "+233 504042792"
+              details = "Sokoban"
             />
             </div>
 
             <div className="flex">
             <Contactdetails 
-              icons = "fa fa-phone"
-              heading = "Contact"
-              details = "+233 504042792"
+              icons = "fa fa-whatsapp"
+              heading = "Whatsapp"
+              details = "+233 598775968"
             />
             <Contactdetails 
-              icons = "fa fa-phone"
-              heading = "Contact"
-              details = "+233 504042792"
+              icons = "fa fa-map-marker"
+              heading = "GPS Code:"
+              details = "GE-229-7967"
             />
             </div>
 
-            <div className="flex">
-            <Contactdetails 
-              icons = "fa fa-phone"
-              heading = "Contact"
-              details = "+233 504042792"
-            />
-            <Contactdetails 
-              icons = "fa fa-phone"
-              heading = "Contact"
-              details = "+233 504042792"
-            />
-            </div>
-
+           
 
           </div>
           <div className="col-3">
