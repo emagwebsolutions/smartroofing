@@ -1,6 +1,6 @@
 .bannertitle{
     h1{
-        font-size: 6.5rem;
+        font-size: 5.5rem;
         font-weight: 900;
         color: white;
     }
@@ -10,9 +10,9 @@
     }
     line-height: 5rem;
     position: absolute;
-    top: 50%;
+    top: 20rem;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    z-index: 999;
+    z-index: 3;
 
 }

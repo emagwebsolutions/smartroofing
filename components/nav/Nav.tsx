@@ -17,6 +17,8 @@ const Nav = ()=>{
     const nav = useRef<HTMLElement>(null)
     const navwrapper = navElemVal ? 'nav-wrapper' : 'navanim'
 
+    console.log(navwrapper)
+
     const opennav = ( e:React.MouseEvent<HTMLDivElement> )=>{
         const cur = nav.current? nav.current : ''
         const navElem = cur ? cur.getAttribute('data-nav') : ''
@@ -53,11 +55,8 @@ const Nav = ()=>{
 
             <Hamburgeropen opennav = {opennav}  name="Smart Roofing Systems" />
     
-      
-
             <nav data-nav="false" ref={nav} className="nav">
-
-                <div className="navoverlay">
+       
 
                 <div className={navwrapper}>
 
@@ -66,6 +65,7 @@ const Nav = ()=>{
                 <Image src="/logo.jpg"  width="6" height="4" alt="" layout="responsive" />
             
                  */}
+
                 <ul>
                     <li className="logo-img-bx">
                         <Link href="/">
@@ -198,9 +198,8 @@ const Nav = ()=>{
                         </Link>
                     </li>
                 </ul>
+                </div>
 
-                </div>
-                </div>
             </nav>
 
             </div>
