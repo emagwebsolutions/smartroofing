@@ -169,10 +169,10 @@ const Nav = ()=>{
                             </ul>
                     </li>
                     <li>
-                        <Link href="/projects">
+                        <Link href="/#">
                             <a onClick={closenav}>Projects</a>
                         </Link>
-                        <ul>
+                        {/* <ul>
                             <li>
                                 <Link href="/">
                                     <a>
@@ -180,7 +180,7 @@ const Nav = ()=>{
                                     </a>
                                 </Link>
                             </li>
-                        </ul>
+                        </ul> */}
                     </li>
                     <li className="about">
                         <Link href="/about">
