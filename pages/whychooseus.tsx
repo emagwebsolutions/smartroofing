@@ -1,20 +1,13 @@
-import type { NextPage } from 'next'
-import Slider from "@madzadev/image-slider";
-import "@madzadev/image-slider/dist/index.css";
-import Sectiontitle from './components/Sectiontitle';
-import Articlebox from './components/Articlebox';
-import Bannertitle from './components/Bannertitle';
-import Contactdetails from './components/Contactdetails';
-import Quote from './components/Quote';
-import Requestquote from './components/Requestquote';
-import Image from 'next/image'
-import Banner from './components/Banner';
+import Sectiontitle from '../components/Sectiontitle';
+import Articlebox from '../components/Articlebox';
+import Bannertitle from '../components/Bannertitle';
+import Banner from '../components/Banner';
 
 const Whychooseus = () => {
 
   return (
     <>
-        <Banner img="/whychooseus.jpeg" />
+      <Banner img="/whychooseus.jpeg" />
 
       <Bannertitle 
         mainheading='Why Choose Us' 
@@ -50,7 +43,7 @@ const Whychooseus = () => {
           </div>
         </div>
 
-<br />
+        <br />
         <div className="container">
           <div>
             <Articlebox icon='fa fa-dollar' 
@@ -73,10 +66,6 @@ const Whychooseus = () => {
         </div>
 
       </section>
-
-
-
-
 
     </>
   )

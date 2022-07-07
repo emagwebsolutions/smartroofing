@@ -1,12 +1,12 @@
 import type { NextPage } from 'next'
 import Slider from "@madzadev/image-slider";
 import "@madzadev/image-slider/dist/index.css";
-import Sectiontitle from './components/Sectiontitle';
-import Articlebox from './components/Articlebox';
-import Quote from './components/Quote';
-import Requestquote from './components/Requestquote';
+import Sectiontitle from '../components/Sectiontitle';
+import Articlebox from '../components/Articlebox';
+import Quote from '../components/Quote';
+import Requestquote from '../components/Requestquote';
 import Image from 'next/image'
-import Headertitle from './components/Headertitle'
+import Headertitle from '../components/Headertitle'
 
 const Home: NextPage = () => {
 
@@ -66,7 +66,6 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-
       <section className="sectiontwo">
 
         <div className="container">
@@ -96,10 +95,7 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-
-
       </section>
-
 
       <section className="sectionthree">
 
@@ -112,10 +108,7 @@ const Home: NextPage = () => {
           </div>
         </div>
 
-
       </section>
-
-
     </>
   )
 }

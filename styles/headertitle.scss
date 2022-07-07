@@ -1,10 +1,11 @@
 .headeer-title{
     position: absolute;
-    top: 30%;
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
     color: white;
-    z-index: 7;
+    z-index: 5;
+    background-color: yellow;
     line-height: 6rem;
     a{
         display: block;

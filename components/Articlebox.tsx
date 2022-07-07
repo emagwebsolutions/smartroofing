@@ -1,4 +1,3 @@
-
 type box = {
   icon: string
   heading: string

@@ -3,7 +3,6 @@ import Nav from "./nav/Nav"
 import Footer from "./footer/Footer"
 import Meta from "./Meta"
 
-
 type Children = {
   children: React.ReactNode
 }

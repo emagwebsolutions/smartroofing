@@ -1,14 +1,8 @@
-import type { NextPage } from 'next'
-import Slider from "@madzadev/image-slider";
-import "@madzadev/image-slider/dist/index.css";
-import Sectiontitle from './components/Sectiontitle';
-import Articlebox from './components/Articlebox';
-import Bannertitle from './components/Bannertitle';
-import Contactdetails from './components/Contactdetails';
-import Quote from './components/Quote';
-import Requestquote from './components/Requestquote';
-import Image from 'next/image'
-import Banner from './components/Banner';
+import Sectiontitle from '../components/Sectiontitle';
+import Bannertitle from '../components/Bannertitle';
+import Contactdetails from '../components/Contactdetails';
+import Requestquote from '../components/Requestquote';
+import Banner from '../components/Banner';
 
 const Contact = () => {
 
@@ -16,7 +10,6 @@ const Contact = () => {
   (+233) 0548123221\n\r
   (+233) 0206603011
   `
-
   return (
     <>
       <Banner img="/about.jpg" />
@@ -27,9 +20,6 @@ const Contact = () => {
       />
 
       <section className="sectiontwo">
-
-
-
         <div className="container">
 
           <div className="col-5">
@@ -51,7 +41,6 @@ const Contact = () => {
               details = "info@sroofingsystems.com"
             />
             </div>
-
 
             <div className="flex">
             <Contactdetails 
@@ -79,23 +68,12 @@ const Contact = () => {
             />
             </div>
 
-           
-
           </div>
           <div className="col-3">
           <Requestquote  />
           </div>
-
-
           </div>
-
-
-
-
       </section>
-
-
-
     </>
   )
 }

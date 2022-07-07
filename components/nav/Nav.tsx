@@ -2,6 +2,7 @@ import  Link  from 'next/link'
 import Hamburgeropen from './Hamburgeropen'
 import Hamburgerclose from './Hamburgerclose'
 import React, { useRef,useEffect } from 'react'
+import Image from 'next/image'
 
 import { useInView } from 'react-intersection-observer';
 
@@ -56,6 +57,8 @@ const Nav = ()=>{
 
             <nav data-nav="false" ref={nav} className="nav">
 
+                <div className="navoverlay">
+
                 <div className={navwrapper}>
 
                 <Hamburgerclose closenav = {closenav}  />
@@ -67,7 +70,7 @@ const Nav = ()=>{
                     <li className="logo-img-bx">
                         <Link href="/">
                             <a onClick={closenav}>
-                                <img src="/logo.jpg" alt="" />
+                                <Image width="4" height="2" layout="responsive" src="/logo.jpg" alt="" />
                             </a>
                         </Link>
                     </li>
@@ -196,6 +199,7 @@ const Nav = ()=>{
                     </li>
                 </ul>
 
+                </div>
                 </div>
             </nav>
 

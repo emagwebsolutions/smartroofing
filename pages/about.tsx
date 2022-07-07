@@ -1,14 +1,7 @@
-import type { NextPage } from 'next'
-import Slider from "@madzadev/image-slider";
-import "@madzadev/image-slider/dist/index.css";
-import Sectiontitle from './components/Sectiontitle';
-import Articlebox from './components/Articlebox';
-import Bannertitle from './components/Bannertitle';
-import Contactdetails from './components/Contactdetails';
-import Quote from './components/Quote';
-import Requestquote from './components/Requestquote';
+import Sectiontitle from '../components/Sectiontitle';
+import Bannertitle from '../components/Bannertitle';
 import Image from 'next/image'
-import Banner from './components/Banner';
+import Banner from '../components/Banner';
 
 const About = () => {
 
@@ -40,7 +33,7 @@ const About = () => {
           </div>
           <div className="col-1">
             <div className="imgbx">
-              <Image src="/abt.jpeg" width="3" height="2" layout="responsive" />
+              <Image src="/abt.jpeg" alt="" width="3" height="2" layout="responsive" />
             </div>
           </div>
 

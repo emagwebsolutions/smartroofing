@@ -1,5 +1,3 @@
-
-
 const Requestquote = () => {
     return (
         <div className="requestquote">

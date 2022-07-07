@@ -4,7 +4,6 @@ const Headertitle = () => {
     return (
         <div className="headeer-title">
 
-
             <h1>
             Hire The Experts To 
             </h1>
@@ -23,9 +22,7 @@ const Headertitle = () => {
                     Get A Quote
                 </a>
             </Link>
-
-
-        
+            
         </div>
     )
 }
