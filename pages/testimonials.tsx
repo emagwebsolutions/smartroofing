@@ -15,7 +15,7 @@ const Testimonials = () => {
 
     <section className="sectiontwo">
 
-    <div className="container">
+    <div className="container mob-container">
       <div>
         <Quote 
           text="What I really like about Smart Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."

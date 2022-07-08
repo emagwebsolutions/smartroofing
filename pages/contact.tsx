@@ -69,7 +69,9 @@ const Contact = () => {
             </div>
 
           </div>
+
           <div className="col-3">
+            <div className="mob-mt"></div>
           <Requestquote  />
           </div>
           </div>

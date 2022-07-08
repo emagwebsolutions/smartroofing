@@ -1,5 +1,5 @@
 @media(max-width: 35em){
-
+    
     nav{
         transform: translateX(-100%);
         transition: .3s;
@@ -9,6 +9,7 @@
         width: 100vw;
         height: 100vh;
         z-index: 8;
+        .navanim,
         .nav-wrapper{
              position: fixed;
              background-color: #fff;
@@ -37,43 +38,43 @@
 
                 }
 
-                // & > li{
+                & > li{
 
-                //     position: relative;
+                    position: relative;
 
-                //     &:nth-of-type(2)::after,
-                //     &:nth-of-type(3)::after,
-                //     &:nth-of-type(4)::after
-                //     {
-                //         content: '^';
-                //         position: absolute;
-                //         transform: rotate(180deg);
-                //         font-size: 1.4rem;
-                //         top: 0;
-                //         right: 1%;
-                //         font-family: Verdana, Geneva, Tahoma, sans-serif;
-                //     }
+       
+                    &:nth-of-type(4)::after,
+                    &:nth-of-type(5)::after
+                    {
+                        content: '^';
+                        position: absolute;
+                        transform: rotate(180deg);
+                        font-size: 1.4rem;
+                        top: 0;
+                        right: 1%;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    }
 
-                //     ul{
-                //         display: none;
-                //         z-index: 3;
-                //         width: 100%;
-                //         background-color: #eee;
-                //         border-bottom-left-radius: 2rem;
-                //         border-bottom-right-radius: 2rem;
-                //         padding: 1.2rem;
-                //         li{
-                //             a{
-                //                 padding-block: .4rem;
-                //                 border-bottom: solid 1px #eee;
-                //                 font-size: 1.4rem;
-                //             }
-                //         }
-                //     }
-                //     &:hover > ul{
-                //         display: block;
-                //     }
-                // }
+                    ul{
+                        display: none;
+                        z-index: 3;
+                        width: 100%;
+                        background-color: #eee;
+                        border-bottom-left-radius: 2rem;
+                        border-bottom-right-radius: 2rem;
+                        padding: 1.2rem;
+                        li{
+                            a{
+                                padding-block: .4rem;
+                                border-bottom: solid 1px #eee;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                    &:hover > ul{
+                        display: block;
+                    }
+                }
 
             }
 

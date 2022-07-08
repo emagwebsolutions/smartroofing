@@ -5,8 +5,8 @@ const Footer = ()=>{
     return (
         <>
         <section className='footer-wrapper'>
-            <div className="container">
 
+            <div className="container mob-container">
                 <div className="about-box">
                     <h4>About Smart Roofing</h4>
                     <p>
@@ -19,8 +19,7 @@ const Footer = ()=>{
                         </a>
                     </Link>
                 </div>
-
-
+        
                 <div>
                 <h4>Products</h4>
 

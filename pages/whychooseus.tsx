@@ -22,7 +22,7 @@ const Whychooseus = () => {
           />
         </div>
 
-        <div className="container">
+        <div className="container mob-container">
           <div>
             <Articlebox icon='fa fa-clock-o' 
               heading='Always on time' 

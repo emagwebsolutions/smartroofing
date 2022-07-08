@@ -21,6 +21,8 @@ const Home: NextPage = () => {
 
   return (
     <>
+
+    <div className="slideshow">
         <Slider 
                 imageList={images} 
                 width={wid} 
@@ -31,9 +33,8 @@ const Home: NextPage = () => {
                 showArrowControls={false} 
                 showDotControls={false}
             />
-
-
-<Headertitle />
+      </div>
+      <Headertitle />
 
       <section className="sectionone">
 
@@ -44,7 +45,7 @@ const Home: NextPage = () => {
           />
         </div>
 
-        <div className="container">
+        <div className="container mob-container">
           <div>
             <Articlebox icon='fa fa-clock-o' 
               heading='Always on time' 
@@ -75,7 +76,7 @@ const Home: NextPage = () => {
           />
         </div>
 
-        <div className="container">
+        <div className="container mob-container">
           <div>
             <Quote 
               text="What I really like about Smart Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."

@@ -136,8 +136,6 @@
         }
     }
 
-
-
     nav > .nav-wrapper{
         display: flex;
         width: 100vw;
@@ -227,30 +225,23 @@
             width: 7rem;
     
         }
-    }
-
-    
-    
-    
+    }  
 }
     
 
 @media(max-width: 35em){
 
+    .slideshow{
+        position: relative;
 
-    .nav-section{
-        z-index: 18;
-        width: 100%;
-        height: 5rem;
-        margin-top: 4rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        left: 0;
-        top: 0;
-        z-index: 8;
+        &::before{
+            content: '';
+            background-color: muted(.7);
+            position: absolute;
+            z-index: 3;
+            width: 100vw;
+            height: 100vh;
+        }
     }
 
 
