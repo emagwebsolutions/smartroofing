@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import ScrollToTop from "react-scroll-to-top"
 
 const Footer = ()=>{
     return (
@@ -9,7 +10,7 @@ const Footer = ()=>{
                 <div className="about-box">
                     <h4>About Smart Roofing</h4>
                     <p>
-                    We are one of the leading roofing sheet companies with the objective of providing a well-researched modern and aesthetic roofing for Ghanaians. All ergonomical considerations are made before our roofing sheets are manufactured. Contact Us on 0548123221 or 0206603011
+                    We are one of the leading roofing sheet companies with the objective of providing a well-researched modern and aesthetic roofing for Ghanaians. All ergonomical considerations are made before our roofing sheets are manufactured.
                     </p>
 
                     <Link href="/about">
@@ -97,28 +98,28 @@ const Footer = ()=>{
                             </Link>
                         </li>
                         <li>
-                        <Link href="/">
+                        <Link href="/contact">
                                 <a>
                                     Contact
                                 </a>
                             </Link>
                         </li>
                         <li>
-                        <Link href="/">
+                        <Link href="/testimonials">
                                 <a>
                                     Testimonials
                                 </a>
                             </Link>
                         </li>
                         <li>
-                        <Link href="/">
+                        <Link href="/whychooseus">
                                 <a>
                                     Why Choose Us
                                 </a>
                             </Link>
                         </li>
                         <li>
-                        <Link href="/">
+                        <Link href="/contact">
                                 <a>
                                     Request for Quote
                                 </a>
@@ -136,22 +137,28 @@ const Footer = ()=>{
                     </p>
 
                     <div className="flex gap-2">
-                        <a href="https://www.facebook.com">
+                        <a href="https://web.facebook.com/sroofing22">
                             <i className="fa fa-facebook"></i>
                         </a>
-                        <a href="https://www.instagram.com">
+                        <a href="https://www.instagram.com/smartroofingghana/">
                             <i className="fa fa-instagram"></i>
                         </a>
-                        <a href="https://www.facebook.com">
+                        <a href="https://www.twitter.com">
                             <i className="fa fa-twitter"></i>
                         </a>
-                        <a href="https://www.facebook.com">
+                        <a href="https://www.linkedin.com/in/smart-roofing-systems-66a61b241/">
                             <i className="fa fa-linkedin"></i>
                         </a>
                     </div>
                 </div>
 
             </div>
+
+            <ScrollToTop smooth className="scrolltotop" />
+
+            <a className="whatsappbtn" href="http://wa.me/233598775968?text=Hello%2C%20I%20want%20to%20make%20enquiries%20about%20your%20roofing%20sheets">
+            <i className="fa fa-whatsapp"></i>
+            </a>
 
         </section>
         <footer>
@@ -164,7 +171,7 @@ const Footer = ()=>{
                 Developed by Emagweb Solutions
                 </div>
             </div>
-
+          
         </footer>
        
         </>

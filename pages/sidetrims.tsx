@@ -7,6 +7,22 @@ import Productone from '../components/products/Productone';
 
 const Sidetrims = () => {
 
+  function details(){
+    return (
+      <ol className="pl-0 ml-1">
+        <li>
+        It is cost-effective.
+        </li>
+        <li>
+        It has heat and sound insulation.
+        </li>
+        <li>
+        It comes in a variety of colours and shapes
+        </li>
+      </ol>
+    )
+  }
+
   const images = [
     { url: "/slider1.jpg" },
     { url: "/slider2.jpg" },
@@ -22,7 +38,7 @@ const Sidetrims = () => {
         subheading='Our IBR Sheets are unique' 
       />
 
-      <Productone img="ibr1.jpg" />
+      <Productone details={details()} img="ibr1.jpg" />
 
 
       <Freeestimate />

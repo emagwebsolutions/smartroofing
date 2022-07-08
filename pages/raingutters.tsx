@@ -7,10 +7,35 @@ import Productone from '../components/products/Productone';
 
 const Raingutters = () => {
 
+ 
+
+
+  function details(){
+    return (
+      <ol className="pl-0 ml-1">
+        <li>
+        Stabilized soil surrounding your home
+        </li>
+        <li>
+        Fewer cases of erosion
+        </li>
+        <li>
+        Leakages are rare
+        </li>
+        <li>
+        Less water damage to your home’s siding
+        </li>
+        <li>
+        Preserved exterior and garage doors
+        </li>
+      </ol>
+    )
+  }
+
   const images = [
-    { url: "/slider1.jpg" },
-    { url: "/slider2.jpg" },
-    { url: "/slider3.jpg" },
+    { url: "/raingutter2.jpg" },
+    { url: "/raingutter3.jpg" },
+    { url: "/raingutter4.jpg" },
   ];
 
   return (
@@ -22,13 +47,13 @@ const Raingutters = () => {
         subheading='Our IBR Sheets are unique' 
       />
 
-      <Productone img="ibr1.jpg" />
+      <Productone details={details()} img="raingutter1.jpg" />
 
 
       <Freeestimate />
 
       <section className="sectionone">
-        <Description title="GENERAL DESCRIPTION" img={images} text="WESTCOAST Stone coated Tiles has Proven in performance both Ghana and West Africa sub-Region . The roof is to resist leaking and other elements from above wind included. At its location up there, the exposure gives a harsh environment that leaves many roofing materials deteriorating with time. On the contrary, stone coated tiles remain intact and even improve with time. These tiles can resist high pressures of the wind and heavy rain. Wind uplift is well prevented using the horizontal fastening of these tiles. Panels will interlock fully leaving no weak points. Even when you want to move the tiles, it is super easy. For sure, WESTCOAST stone coated roof tiles are considered the best for what they are. They surpass other roofing tiles and materials in aspects of durability, aesthetics, performance, maintenance and sustainability." />
+        <Description title="GENERAL DESCRIPTION" img={images} text="A rain gutter, eavestrough, eaves-shoot or surface water collection channel is a component of a water discharge system for a building.[1] It is necessary to prevent water dripping or flowing off roofs in an uncontrolled manner for several reasons: to prevent it damaging the walls, drenching persons standing below or entering the building, and to direct the water to a suitable disposal site where it will not damage the foundations of the building. In the case of a flat roof, removal of water is essential to prevent water ingress and to prevent a build-up of excessive weight." />
 
       </section>
 

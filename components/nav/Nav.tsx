@@ -6,7 +6,6 @@ import Image from 'next/image'
 
 import { useInView } from 'react-intersection-observer';
 
-
 const Nav = ()=>{
 
     const { ref: navElem, inView: navElemVal } = useInView({
@@ -16,8 +15,6 @@ const Nav = ()=>{
 
     const nav = useRef<HTMLElement>(null)
     const navwrapper = navElemVal ? 'nav-wrapper' : 'navanim'
-
-    console.log(navwrapper)
 
     const opennav = ( e:React.MouseEvent<HTMLDivElement> )=>{
         const cur = nav.current? nav.current : ''
@@ -49,7 +46,6 @@ const Nav = ()=>{
         }
       }, []);
 
-
         return (
             <div className="navbar" ref={navElem}> 
 
@@ -57,7 +53,6 @@ const Nav = ()=>{
     
             <nav data-nav="false" ref={nav} className="nav">
        
-
                 <div className={navwrapper}>
 
                 <Hamburgerclose closenav = {closenav}  />
@@ -70,7 +65,7 @@ const Nav = ()=>{
                     <li className="logo-img-bx">
                         <Link href="/">
                             <a onClick={closenav}>
-                                <Image width="4" height="2" layout="responsive" src="/logo.jpg" alt="" />
+                                <Image width="7" height="5" layout="responsive" src="/logo.jpg" alt="" />
                             </a>
                         </Link>
                     </li>
@@ -85,7 +80,7 @@ const Nav = ()=>{
                         </Link>
                     </li>
                     <li>
-                        <Link href="/products">
+                        <Link href="/#">
                             <a onClick={closenav}>Products </a>
                         </Link>
                         <ul>
@@ -145,13 +140,13 @@ const Nav = ()=>{
                                         </a>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/sidetrims">
                                         <a>
                                         Side Trims
                                         </a>
                                     </Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link href="/trusses">
                                         <a>
@@ -159,13 +154,13 @@ const Nav = ()=>{
                                         </a>
                                     </Link>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <Link href="/eavetrims">
                                         <a>
                                         Eave Trims
                                         </a>
                                     </Link>
-                                </li>
+                                </li> */}
                             </ul>
                     </li>
                     <li>

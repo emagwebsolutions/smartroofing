@@ -3,9 +3,10 @@ import Image from 'next/image'
 
 type Det = {
     img: string
+    details: React.ReactNode
 }
 
-const Productone = ({img}: Det) => {
+const Productone = ({img,details}: Det) => {
 
     return (
         <section className="productone">
@@ -18,16 +19,7 @@ const Productone = ({img}: Det) => {
             <div className="col-2">
                 <div className="prodBx">
                     <h4>Advantages</h4>
-                    <div>
- 
-                            1. It has an Aluzinc metal base and a stone coated finish.
-                            <br />
-                            2. It is lighter and and easier to handle.
-                            <br />
-                            3. It is designed to to be installed on a 2×2 battern system purlins.
-        
-             
-                    </div>
+                    <div>{details}</div>
 
                     <Link href="/contact">
                     <a>Get Quote</a>

@@ -5,12 +5,32 @@ import Description from '../components/products/Description';
 import Freeestimate from '../components/products/Freeestimate';
 import Productone from '../components/products/Productone';
 
+
+function details(){
+  return (
+    <ol className="pl-0 ml-1">
+      <li>
+      Quiet and Eliminates Water Buildup
+      </li>
+      <li>
+      Long Lasting
+      </li>
+      <li>
+      Tough Yet Lightweight
+      </li>
+      <li>
+      Can Cope with Adverse Weather Conditions
+      </li>
+    </ol>
+  )
+}
+
 const Ibrsheets = () => {
 
   const images = [
-    { url: "/slider1.jpg" },
-    { url: "/slider2.jpg" },
-    { url: "/slider3.jpg" },
+    { url: "/ibr2.jpg" },
+    { url: "/ibr3.jpg" },
+    { url: "/ibr4.jpg" }
   ];
 
   return (
@@ -22,13 +42,14 @@ const Ibrsheets = () => {
         subheading='Our IBR Sheets are unique' 
       />
 
-      <Productone img="ibr1.jpg" />
+      <Productone img="ibr1.jpg" details={details()} />
 
 
       <Freeestimate />
 
       <section className="sectionone">
-        <Description title="GENERAL DESCRIPTION" img={images} text="WESTCOAST Stone coated Tiles has Proven in performance both Ghana and West Africa sub-Region . The roof is to resist leaking and other elements from above wind included. At its location up there, the exposure gives a harsh environment that leaves many roofing materials deteriorating with time. On the contrary, stone coated tiles remain intact and even improve with time. These tiles can resist high pressures of the wind and heavy rain. Wind uplift is well prevented using the horizontal fastening of these tiles. Panels will interlock fully leaving no weak points. Even when you want to move the tiles, it is super easy. For sure, WESTCOAST stone coated roof tiles are considered the best for what they are. They surpass other roofing tiles and materials in aspects of durability, aesthetics, performance, maintenance and sustainability." />
+        <Description title="GENERAL DESCRIPTION" img={images} text="We supply IBR Roof Sheeting for large construction projects. Talk to any of our sales consultants about pricing options on IBR Sheeting.
+        IBR roof sheeting is a square fluted profile with an effective covering width of 686 mm, designed for use as side cladding or roofing material in commercial, industrial and residential buildings. The name IBR is abbreviated from “Inverted Box Rib”. The deep, broad flute design offers excellent drainage characteristics combined with optimum weight versus load/span capabilities. IBR can be factory cranked, curved and bullnosed to various radii depending on customer’s requirements. We have it in guages of (0.4 – 5.0)." />
 
       </section>
 

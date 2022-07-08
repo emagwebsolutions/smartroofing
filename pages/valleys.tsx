@@ -6,11 +6,32 @@ import Freeestimate from '../components/products/Freeestimate';
 import Productone from '../components/products/Productone';
 
 const Valleys = () => {
+ 
+
+ 
+  
+  
+
+  function details(){
+    return (
+      <ol className="pl-0 ml-1">
+        <li>
+        It is more aesthetically pleasing
+        </li>
+        <li>
+        Quicker to install
+        </li>
+        <li>
+        Usually cheaper
+        </li>
+      </ol>
+    )
+  }
 
   const images = [
-    { url: "/slider1.jpg" },
-    { url: "/slider2.jpg" },
-    { url: "/slider3.jpg" },
+    { url: "/valley1.jpg" },
+    { url: "/valley2.jpg" },
+    { url: "/valley3.jpg" },
   ];
 
   return (
@@ -22,13 +43,14 @@ const Valleys = () => {
         subheading='Our IBR Sheets are unique' 
       />
 
-      <Productone img="ibr1.jpg" />
+      <Productone details={details()} img="valley4.jpg" />
 
 
       <Freeestimate />
 
       <section className="sectionone">
-        <Description title="GENERAL DESCRIPTION" img={images} text="WESTCOAST Stone coated Tiles has Proven in performance both Ghana and West Africa sub-Region . The roof is to resist leaking and other elements from above wind included. At its location up there, the exposure gives a harsh environment that leaves many roofing materials deteriorating with time. On the contrary, stone coated tiles remain intact and even improve with time. These tiles can resist high pressures of the wind and heavy rain. Wind uplift is well prevented using the horizontal fastening of these tiles. Panels will interlock fully leaving no weak points. Even when you want to move the tiles, it is super easy. For sure, WESTCOAST stone coated roof tiles are considered the best for what they are. They surpass other roofing tiles and materials in aspects of durability, aesthetics, performance, maintenance and sustainability." />
+        <Description title="GENERAL DESCRIPTION" img={images} text="A roof valley is formed where two roof slopes meet. Water collects in a valley to flow off the roof. Your choice of valley installation method is critical because, when improperly installed, valleys are risks for serious leaks." 
+        />
 
       </section>
 

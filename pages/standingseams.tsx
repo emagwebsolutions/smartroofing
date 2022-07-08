@@ -7,10 +7,26 @@ import Productone from '../components/products/Productone';
 
 const Standingseams = () => {
 
+  function details(){
+    return (
+      <ol className="pl-0 ml-1">
+        <li>
+        It is aesthetically appealing
+        </li>
+        <li>
+        It boosts the structures curb appeal
+        </li>
+        <li>
+        It is affordable
+        </li>
+      </ol>
+    )
+  }
+
   const images = [
-    { url: "/slider1.jpg" },
-    { url: "/slider2.jpg" },
-    { url: "/slider3.jpg" },
+    { url: "/standingseam2.jpg" },
+    { url: "/standingseam3.jpg" },
+    { url: "/standingseam4.jpg" },
   ];
 
   return (
@@ -22,7 +38,7 @@ const Standingseams = () => {
         subheading='Our IBR Sheets are unique' 
       />
 
-      <Productone img="ibr1.jpg" />
+      <Productone img="standingseam1.jpg" details={details()} />
 
 
       <Freeestimate />
