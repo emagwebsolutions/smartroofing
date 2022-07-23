@@ -91,7 +91,7 @@ const Home: NextPage = () => {
           </div>
           <div>
           <Quote 
-              text="What I really like about West Coast Roofing is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
+              text="What I really like about Smart Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
               name="Dr. Douglas Sarpong"
             />
           </div>

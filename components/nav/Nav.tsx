@@ -86,56 +86,56 @@ const Nav = ()=>{
                         <ul>
                                 <li>
                                     <Link href="/ibrsheets">
-                                        <a>
+                                        <a onClick={closenav}>
                                         IBR Sheets
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/selflocksheets">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Selflock Sheets
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/standingseams">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Standing Seams
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/eurotiles">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Euro Tiles
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/shingles">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Shingles
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/steptiles">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Step Tiles
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/raingutters">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Rain Gutters
                                         </a>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link href="/valleys">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Valleys
                                         </a>
                                     </Link>
@@ -149,7 +149,7 @@ const Nav = ()=>{
                                 </li> */}
                                 <li>
                                     <Link href="/trusses">
-                                        <a>
+                                        <a onClick={closenav}>
                                         Trusses
                                         </a>
                                     </Link>

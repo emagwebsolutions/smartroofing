@@ -44,7 +44,7 @@ const Whychooseus = () => {
         </div>
 
         <br />
-        <div className="container">
+        <div className="container mob-container">
           <div>
             <Articlebox icon='fa fa-dollar' 
               heading='Maximum Profitability' 

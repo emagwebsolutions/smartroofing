@@ -29,20 +29,23 @@ const Contact = () => {
               subheading='Get In Touch' 
             />
 
-            <div className="flex">
-            <Contactdetails 
+            <div className="contact-flex">
+
+              <Contactdetails 
               icons = "fa fa-phone"
               heading = "Contact Numbers​"
               details = {contactnumbers}
             />
-            <Contactdetails 
+     
+              <Contactdetails 
               icons = "fa fa-envelope"
               heading = "Email"
               details = "info@sroofingsystems.com"
             />
+  
             </div>
 
-            <div className="flex">
+            <div className="contact-flex">
             <Contactdetails 
               icons = "fa fa-map-marker"
               heading = "Accra"
@@ -55,7 +58,7 @@ const Contact = () => {
             />
             </div>
 
-            <div className="flex">
+            <div className="contact-flex">
             <Contactdetails 
               icons = "fa fa-whatsapp"
               heading = "Whatsapp"
