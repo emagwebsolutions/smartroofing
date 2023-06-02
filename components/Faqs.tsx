@@ -1,17 +1,15 @@
-type Title  = {
-  question: string
-  answer: string
-}
+type Title = {
+  question: string;
+  answer: string;
+};
 
-const Faqs = ({question,answer}: Title) => {
+const Faqs = ({ question, answer }: Title) => {
   return (
-        <div className="faq">
-          <h3>{question}</h3>
-          <div>
-           {answer}
-          </div>
-        </div>
-      )
-}
+    <div className="faq">
+      <h3>{question}</h3>
+      <div>{answer}</div>
+    </div>
+  );
+};
 
-export default Faqs
+export default Faqs;

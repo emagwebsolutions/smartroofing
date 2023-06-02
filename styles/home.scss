@@ -13,6 +13,10 @@
     background-color: #384858;
 }
 
+.slideshow{
+    position: relative;
+}
+
 
 @media(max-width: 35em){
     .mob-container{
@@ -21,3 +25,14 @@
         }
     }
 }
+
+@media(min-width: 35em){
+    .homerequestform{
+        .requestquote{
+            height: 100%;
+        }
+    } 
+
+}
+      
+

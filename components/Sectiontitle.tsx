@@ -1,17 +1,15 @@
 type Headings = {
-  subheading: string
-  mainheading: string
-}
+  subheading: string;
+  mainheading: string;
+};
 
-const Sectiontitle = ( {subheading,mainheading}: Headings ) => {
-
+const Sectiontitle = ({ subheading, mainheading }: Headings) => {
   return (
     <div className="sectiontitle">
-    <h4>{subheading}</h4>
-    <h1>{mainheading}</h1>
+      <h4>{subheading}</h4>
+      <h1>{mainheading}</h1>
     </div>
-  )
+  );
+};
 
-}
-
-export default Sectiontitle
+export default Sectiontitle;
